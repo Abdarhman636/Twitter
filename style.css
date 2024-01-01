@@ -1,0 +1,153 @@
+@font-face {
+     font-family: Tohama;
+     src: url(assets/font/ArbFONTS-Tahoma-Bold.ttf);
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+     box-sizing: border-box;
+     font-family: Tahoma, Arial, sans-serif;
+     margin: 0;
+   }
+
+   body, h1, h2, h3, h4, h5, h6, p, ul, li {
+        padding: 0;
+        margin: 0;
+        font-family: Tahoma, Arial, sans-serif;
+   }
+
+   ol, ul {
+	list-style: none;
+}
+
+button {
+     border: none;
+     border-radius: 25px;
+     padding: 11px 30px;
+     background-color: white;
+     color: #000000;
+     margin: 5px 0;
+     width: 300px;
+     font-weight: bold;
+}
+
+img {
+     width: 100%;
+}
+/* ================================= */
+
+body {
+     background-color: #000000;
+}
+
+.container {
+     display: flex;
+     min-height: calc(100vh - 45px);
+}
+
+.home-text {
+     flex: 45%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+     color: white;
+     padding-right: 35px;
+}
+
+.home-text img {
+     width: 35px;
+     margin-bottom: 45px;
+}
+
+.home-img {
+     flex: 55%;
+     background-image: url(assets/imgs/Homepage.png);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.home-img img {
+     width: 31%;
+}
+
+h1 {
+     font-size: 60px;
+     margin-bottom: 60px;
+     text-align: right;
+
+}
+
+h2 {
+     text-align: right;
+     margin-bottom: 20px;
+     font-size: 32px;
+}
+
+.med-section {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+}
+
+.med-section  span {
+     margin: auto;
+}
+
+pre {
+     text-align: right;
+     font-size: 10px;
+     color: #71767b;
+}
+
+pre span {
+     color: #1d9bf0;
+}
+
+#second {
+     margin-top: 40px;
+}
+
+#email-btn {
+     background-color: #1d9bf0;
+     color: white;
+     font-size: 17px;
+}
+
+#sign-up {
+     background: transparent;
+     border: 1px solid #1d9bf0;
+     font-size: 15px;
+     padding: 10px ;
+     margin-top: 15px;
+}
+
+#sign-up a {
+     color: #1d9bf0;
+     text-decoration: none;
+}
+
+footer {
+     display: flex;
+     gap: 15px;
+     width: 80%;
+     color: rgb(113, 118, 123);
+     margin: auto;
+     justify-content: center;
+     height: 45px;
+     align-items: center;
+}
+
+footer span {
+     font-size: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+     body {
+       flex-direction: column;
+     }
+   }
